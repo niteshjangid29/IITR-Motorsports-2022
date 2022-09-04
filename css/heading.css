@@ -1,0 +1,36 @@
+.teamheading,
+.aluminiheading {
+  display: flex;
+  padding-bottom: 90px;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: Nimbus Sans;
+  color: #b4b4b4;
+  align-items: center;
+  justify-content: space-between;
+}
+.teamheading-text,
+.aluminiheading-text {
+  margin: 0 5vw 0 0;
+  width: fit-content;
+  white-space: nowrap;
+}
+.teamheading-line,
+.aluminiheading-line {
+  border: 2px solid #58585c;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .teamheading,
+  .aluminiheading {
+    display: block;
+  }
+  .teamheading-text,
+  .aluminiheading-text {
+    white-space: unset;
+  }
+  .team-members-sub-heading {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
