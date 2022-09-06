@@ -31,7 +31,9 @@
   border-radius: 115px;
 } */
 .alumini-member {
+  position: relative;
   padding: 30px;
+  height: 320px;
   width: 200px;
 }
 .alumini-member-name {
@@ -63,10 +65,12 @@
 }
 .alumini-member-contact {
   width: inherit;
-  /* width: 100%; */
+  width: 190px;
   background-color: #393c49;
   border-radius: 30px;
   padding: 5px;
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: space-evenly;
 }
